@@ -1,0 +1,22 @@
+RwLoadSpecificationV2 {
+	#specName : 'GsZeroMQ',
+	#projectName : 'GsZeroMQ',
+	#gitUrl : 'git@github.com:JupiterJones/GsZeroMQ.git',
+	#revision : 'main',
+	#projectSpecFile : 'rowan/project.ston',
+	#componentNames : [
+		'GsZeroMQ'
+	],
+	#customConditionalAttributes : [
+		'deprecated',
+		'tests'
+	],
+	#platformProperties : {
+		'gemstone' : {
+			'allusers' : {
+				#defaultSymbolDictName : 'UserGlobals'
+			}
+		}
+	},
+	#comment : 'GsZeroMQ development load spec'
+}

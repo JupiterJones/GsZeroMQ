@@ -1,0 +1,11 @@
+RwSimpleProjectLoadComponentV2 {
+	#name : 'GsZeroMQ',
+	#condition : 'common',
+	#projectNames : [ ],
+	#componentNames : [
+		'gemstone/GsZeroMQ',
+		'tests/GsZeroMQ'
+	],
+	#packageNames : [ ],
+	#comment : 'core packages for GsZeroMQ'
+}

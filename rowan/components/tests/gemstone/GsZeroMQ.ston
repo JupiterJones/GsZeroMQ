@@ -1,0 +1,10 @@
+RwPlatformNestedProjectLoadComponentV2 {
+	#name : 'tests/gemstone/GsZeroMQ',
+	#condition : [
+		'gs3.[7-]'
+	],
+	#packageNames : [
+		'GsZeroMQ-Core-GemStone-Test'
+	],
+	#comment : 'test packages for GsZeroMQ'
+}

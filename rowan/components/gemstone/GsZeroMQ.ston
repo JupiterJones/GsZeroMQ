@@ -1,0 +1,22 @@
+RwPlatformNestedProjectLoadComponentV2 {
+	#name : 'gemstone/GsZeroMQ',
+	#condition : [
+		'gs3.[7-]'
+	],
+	#packageNames : [
+		'GsZeroMQ-Core-GemStone',
+		'GsZeroMQ-Extensions-GemStone'
+	],
+	#conditionalPackageMapSpecs : {
+		'gemstone' : {
+			'allusers' : {
+				#packageNameToPlatformPropertiesMap : {
+					'GsZeroMQ-Extensions-GemStone' : {
+						'symbolDictName' : 'Globals'
+					}
+				}
+			}
+		}
+	},
+	#comment : 'gemstone packages for Announcements'
+}
